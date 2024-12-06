@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "421906561222",
+    "project_id": "dack1-a71ae",
+    "storage_bucket": "dack1-a71ae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421906561222:android:13f09402ec32e627477fc7",
+        "android_client_info": {
+          "package_name": "com.example.dack1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoRj2UbTsc_Kmv0kbGbijWwMsG8zu3eHs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

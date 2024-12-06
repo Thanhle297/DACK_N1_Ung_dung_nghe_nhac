@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#101010"
+    tools:context=".Addmusic">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:text="Thêm bài hát mới"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:autoSizeTextType="uniform" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Tên bài hát"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/author"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Tên tác giả"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/image"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Chọn ảnh đại diện"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/music"
+        android:background="@drawable/custom_edittext"
+        android:drawablePadding="8dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Chọn nguồn bài hát"
+        android:textSize="16dp"
+        android:backgroundTint="@color/white"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="10dp"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#7180D8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Thêm bài hát" />
+
+
+</LinearLayout>
